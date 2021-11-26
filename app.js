@@ -16,7 +16,7 @@ var db = mongoose.connection;
 //Bind connection to error event (to get notification of connection errors)
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
-const port = 8000;
+const port = process.env.PORT||8000;
 //Defune Schema
 const contactSchema = new mongoose.Schema({
     name: String,
