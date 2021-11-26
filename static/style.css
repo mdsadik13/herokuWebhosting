@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 29px;
+}
+#logo img{
+    height: 39px;
+    filter: invert(1);
+    margin: 6px 4px;
+}
+#navbar{
+    background-color: black;
+}
+
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+    color: blue;
+}
+
+#introSection{
+ padding-bottom: 200px;
+color: white;
+background: center/cover no-repeat url("/static/bg.jpg");
+display: flex;
+justify-content: center;
+align-items: center;
+height: 425px;
+background-color: red;
+font-family: 'Fruktur', cursive;
+font-size: 30px;
+}   
+#missionSection{
+    height: 300px;
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+}
+#missionSection h2{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+}
+.card-content{
+    padding: 0 6px;
+}
+.card-content p{
+    font-size: 20px;
+    padding: 4px 6px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 19%;
+    margin: 10px 22px;
+    height: 230px;
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+    padding: 0 14px;
+}
+
+#sponsorsSection{
+   height: 300px;
+   background-color: rgb(1 239 19 / 15%);
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 23px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin:14px auto;
+}
+.spImage{
+    height:191px;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+   height: 60px;
+   background-color: rgb(1, 12, 1);
+}
